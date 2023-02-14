@@ -1,3 +1,1 @@
-# Get the problem
-# for problem in problem_list:
-#     spider_problem.get_problem(problem)
+https://codeforces.org/s/44797/images/icons/user.png
