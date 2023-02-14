@@ -62,7 +62,7 @@ def spider_problem():
             items_all.append([title,url,diff])
         cnt += len(items)
         print(i,cnt)
-    with open('db/problem_list.json','w',encoding='utf-8') as f:
+    with open('db/codeforces_index.json','w',encoding='utf-8') as f:
         json.dump(items_all,f)
 
 if __name__ == '__main__':
