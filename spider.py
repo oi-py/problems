@@ -1,9 +1,9 @@
-import problem_spider
-import problem_list_spider
+import spider_problem
+import spider_problem_list
 
 # Get the list of problems
-problem_list = problem_list_spider.get_problem_list()
+problem_list = spider_problem_list.get_problem_list()
 
-# Get the problem
-for problem in problem_list:
-    problem_spider.get_problem(problem)
+# # Get the problem
+# for problem in problem_list:
+#     spider_problem.get_problem(problem)
